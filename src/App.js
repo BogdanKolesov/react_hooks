@@ -1,9 +1,9 @@
-import useStateHook from './hooks/useStateHook'
+import UseStateHook from './hooks/UseStateHook'
 
 function App() {
   return (
     <div className="App">
-      <useStateHook />
+      <UseStateHook />
     </div>
   );
 }
