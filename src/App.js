@@ -3,6 +3,7 @@ import UseEffectHook from './hooks/UseEffectHook'
 import UseRefHook from './hooks/UseRefHook';
 import UseMemoHook from './hooks/UseMemoHook';
 import UseCallbackHook from './hooks/UseCallbackHook'
+import UseContextHook from './hooks/UseContextHook'
 
 
 function App() {
@@ -12,7 +13,8 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <UseRefHook /> */}
       {/* <UseMemoHook /> */}
-      <UseCallbackHook />
+      {/* <UseCallbackHook /> */}
+      <UseContextHook />
     </div>
   );
 }
