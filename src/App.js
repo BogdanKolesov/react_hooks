@@ -1,6 +1,7 @@
 import UseStateHook from './hooks/UseStateHook'
 import UseEffectHook from './hooks/UseEffectHook'
 import UseRefHook from './hooks/UseRefHook';
+import UseMemoHook from './hooks/UseMemoHook';
 
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       {/* <UseStateHook /> */}
       {/* <UseEffectHook /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <UseMemoHook />
     </div>
   );
 }
