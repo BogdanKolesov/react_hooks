@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import React from 'react';
 import { useAlert } from './AlertContext'
 
 const Alert = () => {
@@ -7,8 +7,8 @@ const Alert = () => {
     if (!alert.visible) return null
 
     return (
-        <div onClick={alert.toggle}>
-            <p>Важное сообщение</p>
+        <div onClick={alert.hide}>
+            <p>{alert.text}</p>
         </div>
     );
 };
