@@ -4,6 +4,7 @@ import UseRefHook from './hooks/UseRefHook';
 import UseMemoHook from './hooks/UseMemoHook';
 import UseCallbackHook from './hooks/UseCallbackHook'
 import UseContextHook from './hooks/UseContextHook'
+import UseCustomHook from './hooks/UseCustomHook'
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <UseMemoHook /> */}
       {/* <UseCallbackHook /> */}
-      <UseContextHook />
+      {/* <UseContextHook /> */}
+      <UseCustomHook />
     </div>
   );
 }
